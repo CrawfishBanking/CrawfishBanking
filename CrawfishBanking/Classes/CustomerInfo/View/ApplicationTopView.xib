@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ApplicationTopView" customModule="CrawfishBanking" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="357" height="61"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1gz-Tl-mSD">
+                    <rect key="frame" x="40" y="20" width="277" height="2"/>
+                    <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="ZIu-5Y-oa9"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" tag="555" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOQ-Xh-c7H">
+                    <rect key="frame" x="55" y="0.0" width="35" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="41" id="8w8-FX-uaX"/>
+                        <constraint firstAttribute="width" constant="35" id="YEk-Zg-E0D"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <inset key="titleEdgeInsets" minX="-20" minY="40" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="申请表" image="未进行">
+                        <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="0P8-JA-t87"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="999" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8MR-LL-28P">
+                    <rect key="frame" x="313" y="0.0" width="35" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="35" id="37m-aA-X4V"/>
+                        <constraint firstAttribute="height" constant="41" id="I5f-y7-7ek"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <inset key="titleEdgeInsets" minX="-24" minY="40" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="还款" image="未进行">
+                        <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="0aL-i7-S8Y"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="777" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdA-z1-Ea5">
+                    <rect key="frame" x="164.5" y="0.0" width="75" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="41" id="XVo-77-bwL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <inset key="titleEdgeInsets" minX="-20" minY="40" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="合同" image="未进行">
+                        <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="hZQ-Ih-vk6"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="888" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qga-dv-jL8">
+                    <rect key="frame" x="239.5" y="0.0" width="74" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="41" id="ylX-OA-VLg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <inset key="titleEdgeInsets" minX="-34" minY="40" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="放款" image="未进行">
+                        <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="gF3-x4-v2T"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="666" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1do-Wo-Ui7">
+                    <rect key="frame" x="90" y="0.0" width="74" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="41" id="5c4-Sa-2bm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <inset key="titleEdgeInsets" minX="-10" minY="40" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="25" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="审核" image="未进行">
+                        <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="T8G-GF-lrb"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Qga-dv-jL8" firstAttribute="leading" secondItem="bdA-z1-Ea5" secondAttribute="trailing" id="08g-14-RvG"/>
+                <constraint firstItem="1do-Wo-Ui7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4aU-23-nVU"/>
+                <constraint firstItem="8MR-LL-28P" firstAttribute="trailing" secondItem="1gz-Tl-mSD" secondAttribute="trailing" constant="31" id="6ha-UR-hRK"/>
+                <constraint firstAttribute="trailing" secondItem="1gz-Tl-mSD" secondAttribute="trailing" constant="40" id="8ef-LV-hbv"/>
+                <constraint firstItem="gOQ-Xh-c7H" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ANa-Z7-CUi"/>
+                <constraint firstItem="1gz-Tl-mSD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="CUG-GM-NwR"/>
+                <constraint firstItem="8MR-LL-28P" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="E49-Rm-fMB"/>
+                <constraint firstItem="8MR-LL-28P" firstAttribute="leading" secondItem="Qga-dv-jL8" secondAttribute="trailing" id="TPD-I4-eTZ"/>
+                <constraint firstItem="Qga-dv-jL8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="XJa-qz-Y97"/>
+                <constraint firstItem="1do-Wo-Ui7" firstAttribute="leading" secondItem="gOQ-Xh-c7H" secondAttribute="trailing" id="Zci-fu-6jK"/>
+                <constraint firstItem="1gz-Tl-mSD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="eBg-ZG-fuU"/>
+                <constraint firstItem="bdA-z1-Ea5" firstAttribute="width" secondItem="1do-Wo-Ui7" secondAttribute="width" id="er0-tD-IhC"/>
+                <constraint firstItem="Qga-dv-jL8" firstAttribute="width" secondItem="bdA-z1-Ea5" secondAttribute="width" id="fUl-HH-lyo"/>
+                <constraint firstItem="bdA-z1-Ea5" firstAttribute="leading" secondItem="1do-Wo-Ui7" secondAttribute="trailing" id="hnB-AX-CeN"/>
+                <constraint firstItem="gOQ-Xh-c7H" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="55" id="k1x-9k-1zG"/>
+                <constraint firstItem="bdA-z1-Ea5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="nWy-UW-Fzf"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btn1" destination="gOQ-Xh-c7H" id="geO-sj-M6U"/>
+                <outlet property="btn2" destination="1do-Wo-Ui7" id="M9d-1l-gvm"/>
+                <outlet property="btn3" destination="bdA-z1-Ea5" id="bf2-OU-wRr"/>
+                <outlet property="btn4" destination="Qga-dv-jL8" id="xyf-Vl-4Zy"/>
+                <outlet property="btn5" destination="8MR-LL-28P" id="pHw-jU-a3q"/>
+            </connections>
+            <point key="canvasLocation" x="2.5" y="-181.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="未进行" width="14" height="14"/>
+    </resources>
+</document>

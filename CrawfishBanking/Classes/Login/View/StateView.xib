@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="StateView" customModule="CrawfishBanking" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="278" height="229"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您当前可融资的额度" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJ1-nh-dBz">
+                    <rect key="frame" x="10" y="10" width="258" height="34.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" red="0.38039215686274508" green="0.49019607843137253" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="加盟宝" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EaS-hy-vfz">
+                    <rect key="frame" x="50" y="52.5" width="178" height="34.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" red="1" green="0.661293520052467" blue="0.38765961911450542" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥6000,000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="np0-QT-hry">
+                    <rect key="frame" x="50" y="107" width="178" height="34.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <color key="textColor" red="1" green="0.10066279894940799" blue="0.24562319178725389" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="现在就去申请融资?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ur-nQ-Si8">
+                    <rect key="frame" x="50" y="161.5" width="178" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" red="0.3803921569" green="0.49019607840000001" blue="0.54117647059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="BJ1-nh-dBz" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.15" id="16J-O0-J3A"/>
+                <constraint firstItem="EaS-hy-vfz" firstAttribute="height" secondItem="BJ1-nh-dBz" secondAttribute="height" id="2Cv-Ub-g9W"/>
+                <constraint firstItem="BJ1-nh-dBz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="4H0-yE-2Sd"/>
+                <constraint firstItem="np0-QT-hry" firstAttribute="height" secondItem="EaS-hy-vfz" secondAttribute="height" id="ATE-Lo-py9"/>
+                <constraint firstItem="EaS-hy-vfz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="50" id="JQa-kF-oJD"/>
+                <constraint firstAttribute="trailing" secondItem="np0-QT-hry" secondAttribute="trailing" constant="50" id="L4F-Qc-2rz"/>
+                <constraint firstItem="np0-QT-hry" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="50" id="PGv-bF-eSE"/>
+                <constraint firstItem="EaS-hy-vfz" firstAttribute="top" secondItem="BJ1-nh-dBz" secondAttribute="bottom" constant="8" symbolic="YES" id="PXq-nw-ZwK"/>
+                <constraint firstItem="5Ur-nQ-Si8" firstAttribute="height" secondItem="np0-QT-hry" secondAttribute="height" id="QJH-Wa-Gp8"/>
+                <constraint firstAttribute="trailing" secondItem="BJ1-nh-dBz" secondAttribute="trailing" constant="10" id="Sgk-wp-Amo"/>
+                <constraint firstAttribute="trailing" secondItem="5Ur-nQ-Si8" secondAttribute="trailing" constant="50" id="UOl-Xc-3Ir"/>
+                <constraint firstItem="5Ur-nQ-Si8" firstAttribute="top" secondItem="np0-QT-hry" secondAttribute="bottom" constant="20" id="XQb-wb-HfF"/>
+                <constraint firstItem="np0-QT-hry" firstAttribute="top" secondItem="EaS-hy-vfz" secondAttribute="bottom" constant="20" id="brA-mU-19R"/>
+                <constraint firstAttribute="trailing" secondItem="EaS-hy-vfz" secondAttribute="trailing" constant="50" id="kBT-TY-uHC"/>
+                <constraint firstItem="BJ1-nh-dBz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="lfw-S4-eGV"/>
+                <constraint firstItem="5Ur-nQ-Si8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="50" id="qhb-Wm-bPm"/>
+                <constraint firstItem="EaS-hy-vfz" firstAttribute="centerX" secondItem="BJ1-nh-dBz" secondAttribute="centerX" id="wZR-ZC-Rj9"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="moneyNumLb" destination="np0-QT-hry" id="I1L-8m-ppw"/>
+                <outlet property="promptLb" destination="5Ur-nQ-Si8" id="I37-3H-9Yu"/>
+            </connections>
+            <point key="canvasLocation" x="-15" y="-165.5"/>
+        </view>
+    </objects>
+</document>

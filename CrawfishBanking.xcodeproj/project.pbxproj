@@ -1,0 +1,1416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A5E3503E8E91CA8D527E702 /* Pods_CrawfishBanking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFA6146AAC997786F3F0E61A /* Pods_CrawfishBanking.framework */; };
+		681550561EC2F00B0002AC1C /* GYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681550261EC2F00B0002AC1C /* GYNavigationController.swift */; };
+		681550571EC2F00B0002AC1C /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681550281EC2F00B0002AC1C /* ConfirmViewController.swift */; };
+		681550581EC2F00B0002AC1C /* FillCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681550291EC2F00B0002AC1C /* FillCustomerViewController.swift */; };
+		681550591EC2F00B0002AC1C /* FillCustomerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815502B1EC2F00B0002AC1C /* FillCustomerModel.swift */; };
+		6815505A1EC2F00B0002AC1C /* ConfirmBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815502D1EC2F00B0002AC1C /* ConfirmBtnView.swift */; };
+		6815505B1EC2F00B0002AC1C /* FillCustomerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815502E1EC2F00B0002AC1C /* FillCustomerCell.swift */; };
+		6815505C1EC2F00B0002AC1C /* FillCustomerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6815502F1EC2F00B0002AC1C /* FillCustomerCell.xib */; };
+		6815505D1EC2F00B0002AC1C /* FillHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681550301EC2F00B0002AC1C /* FillHeadView.swift */; };
+		6815505E1EC2F00B0002AC1C /* FillHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 681550311EC2F00B0002AC1C /* FillHeadView.xib */; };
+		6815505F1EC2F00B0002AC1C /* ContractVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681550331EC2F00B0002AC1C /* ContractVc.swift */; };
+		681550601EC2F00B0002AC1C /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681550341EC2F00B0002AC1C /* FilesViewController.swift */; };
+		681550611EC2F00B0002AC1C /* FinancingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681550351EC2F00B0002AC1C /* FinancingViewController.swift */; };
+		681550641EC2F00B0002AC1C /* LoansVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681550381EC2F00B0002AC1C /* LoansVc.swift */; };
+		681550661EC2F00B0002AC1C /* RequestVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815503A1EC2F00B0002AC1C /* RequestVc.swift */; };
+		681550671EC2F00B0002AC1C /* ReviewVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815503B1EC2F00B0002AC1C /* ReviewVc.swift */; };
+		681550681EC2F00B0002AC1C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815503D1EC2F00B0002AC1C /* HomeViewController.swift */; };
+		681550691EC2F00B0002AC1C /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815503F1EC2F00B0002AC1C /* SubmitViewController.swift */; };
+		681550701EC2F00B0002AC1C /* GYBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681550471EC2F00B0002AC1C /* GYBanner.swift */; };
+		681550711EC2F00B0002AC1C /* HomeBootomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681550481EC2F00B0002AC1C /* HomeBootomView.swift */; };
+		681550721EC2F00B0002AC1C /* LoginNoneInfoVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815504A1EC2F00B0002AC1C /* LoginNoneInfoVc.swift */; };
+		681550731EC2F00B0002AC1C /* LoginNoneInfoVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6815504B1EC2F00B0002AC1C /* LoginNoneInfoVc.xib */; };
+		681550771EC2F00B0002AC1C /* StateSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681550501EC2F00B0002AC1C /* StateSecondView.swift */; };
+		681550781EC2F00B0002AC1C /* StateSecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 681550511EC2F00B0002AC1C /* StateSecondView.xib */; };
+		681550791EC2F00B0002AC1C /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681550521EC2F00B0002AC1C /* StateView.swift */; };
+		6815507A1EC2F00B0002AC1C /* StateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 681550531EC2F00B0002AC1C /* StateView.xib */; };
+		681550821EC2F0120002AC1C /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815507D1EC2F0120002AC1C /* UIColor+Extension.swift */; };
+		681550831EC2F0120002AC1C /* UIView+GYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815507E1EC2F0120002AC1C /* UIView+GYExtension.swift */; };
+		681550841EC2F0120002AC1C /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681550801EC2F0120002AC1C /* UIBarButtonItem+Extension.swift */; };
+		681550851EC2F0120002AC1C /* UIButton+GYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681550811EC2F0120002AC1C /* UIButton+GYExtension.swift */; };
+		681550951EC2F0180002AC1C /* GYBounceSportAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681550881EC2F0180002AC1C /* GYBounceSportAnimation.swift */; };
+		681550961EC2F0180002AC1C /* GYIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681550891EC2F0180002AC1C /* GYIndicatorView.swift */; };
+		6815509B1EC2F0180002AC1C /* GYPageContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681550901EC2F0180002AC1C /* GYPageContainerView.swift */; };
+		6815509C1EC2F0180002AC1C /* GYPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681550911EC2F0180002AC1C /* GYPageTitleView.swift */; };
+		6815509E1EC2F0180002AC1C /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681550941EC2F0180002AC1C /* Tools.swift */; };
+		681C016E1ECBEDDE002B78C9 /* ApplicationTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681C016D1ECBEDDE002B78C9 /* ApplicationTopView.swift */; };
+		681C01701ECBF315002B78C9 /* ApplicationTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 681C016F1ECBF315002B78C9 /* ApplicationTopView.xib */; };
+		681C01791ECC51B8002B78C9 /* LoansBootomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681C01781ECC51B8002B78C9 /* LoansBootomView.swift */; };
+		681C017B1ECC51EF002B78C9 /* LoansBootomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 681C017A1ECC51EF002B78C9 /* LoansBootomView.xib */; };
+		681D47971EF268780024C551 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681D47961EF268780024C551 /* UserModel.swift */; };
+		681D54F01F0C7FAB007B6335 /* AboutCrawfishVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681D54EE1F0C7FAB007B6335 /* AboutCrawfishVc.swift */; };
+		681D54F11F0C7FAB007B6335 /* AboutCrawfishVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 681D54EF1F0C7FAB007B6335 /* AboutCrawfishVc.xib */; };
+		681FC4ED1F022632009ED1CE /* InviteHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681FC4EC1F022632009ED1CE /* InviteHistory.swift */; };
+		681FC4F41F0226AB009ED1CE /* InviteHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681FC4F21F0226AB009ED1CE /* InviteHistoryCell.swift */; };
+		681FC4F51F0226AB009ED1CE /* InviteHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 681FC4F31F0226AB009ED1CE /* InviteHistoryCell.xib */; };
+		682072CC1EEFAE120051F1D2 /* RequestRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682072CB1EEFAE120051F1D2 /* RequestRealm.swift */; };
+		682072CE1EEFAE240051F1D2 /* RequestStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682072CD1EEFAE230051F1D2 /* RequestStateModel.swift */; };
+		682072D01EEFB6080051F1D2 /* ShopTypeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682072CF1EEFB6080051F1D2 /* ShopTypeVc.swift */; };
+		682072D21EEFB7FE0051F1D2 /* SellerVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682072D11EEFB7FE0051F1D2 /* SellerVc.swift */; };
+		682072D41EEFB8180051F1D2 /* FriendInfoVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682072D31EEFB8180051F1D2 /* FriendInfoVc.swift */; };
+		6820BF151EC2DDFC00C62BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6820BF141EC2DDFC00C62BAF /* Assets.xcassets */; };
+		6820BF181EC2DDFC00C62BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6820BF161EC2DDFC00C62BAF /* LaunchScreen.storyboard */; };
+		6820BF231EC2DDFC00C62BAF /* CrawfishBankingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6820BF221EC2DDFC00C62BAF /* CrawfishBankingTests.swift */; };
+		6820BF2E1EC2DDFC00C62BAF /* CrawfishBankingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6820BF2D1EC2DDFC00C62BAF /* CrawfishBankingUITests.swift */; };
+		6830110E1F0492A0008B862B /* ContractDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6830110D1F0492A0008B862B /* ContractDetail.swift */; };
+		68445F591EEE59BA00B83571 /* PersonInfoVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68445F581EEE59BA00B83571 /* PersonInfoVc.swift */; };
+		6844AD171F0B87CB004061F3 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6844AD161F0B87CB004061F3 /* HistoryModel.swift */; };
+		684BA0E91ED4309E00993F18 /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684BA0E81ED4309E00993F18 /* SwiftNotice.swift */; };
+		684C1D801F04DE5C008DF3BC /* InviteInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684C1D7F1F04DE5C008DF3BC /* InviteInfoModel.swift */; };
+		6854C4D91ECD2FA300DDCCE1 /* UserInfoVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6854C4D81ECD2FA300DDCCE1 /* UserInfoVc.swift */; };
+		6854C4DD1ECD310100DDCCE1 /* UserInfoTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6854C4DC1ECD310100DDCCE1 /* UserInfoTopView.swift */; };
+		6854C4DF1ECD312800DDCCE1 /* UserInfoTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6854C4DE1ECD312800DDCCE1 /* UserInfoTopView.xib */; };
+		68551EBA1EF0FF31003C2691 /* BankTypeInfoRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68551EB91EF0FF31003C2691 /* BankTypeInfoRealm.swift */; };
+		68551EFA1EF126DE003C2691 /* TimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68551EF81EF126DE003C2691 /* TimeCell.swift */; };
+		68551EFB1EF126DE003C2691 /* TimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68551EF91EF126DE003C2691 /* TimeCell.xib */; };
+		68551EFF1EF130B8003C2691 /* NSDate+GYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68551EFE1EF130B8003C2691 /* NSDate+GYExtension.swift */; };
+		68551F011EF13721003C2691 /* GYDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68551F001EF13721003C2691 /* GYDatePicker.swift */; };
+		68551F031EF1372D003C2691 /* GYDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68551F021EF1372D003C2691 /* GYDatePicker.xib */; };
+		6857FFE21EC41036002B5DCA /* String+GYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857FFE11EC41036002B5DCA /* String+GYExtension.swift */; };
+		6866B6191F29B0EB00E4CEF5 /* JWPhotoBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6866B60F1F29B0EB00E4CEF5 /* JWPhotoBrowserViewController.swift */; };
+		6866B61A1F29B0EB00E4CEF5 /* JWPhotoBrowerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6866B6111F29B0EB00E4CEF5 /* JWPhotoBrowerItem.swift */; };
+		6866B61B1F29B0EB00E4CEF5 /* JWPhotoDismissBrowserTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6866B6131F29B0EB00E4CEF5 /* JWPhotoDismissBrowserTransitioning.swift */; };
+		6866B61C1F29B0EB00E4CEF5 /* JWPhotoInteractiveTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6866B6141F29B0EB00E4CEF5 /* JWPhotoInteractiveTransitioning.swift */; };
+		6866B61D1F29B0EB00E4CEF5 /* JWPhotoPresentBrowserTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6866B6151F29B0EB00E4CEF5 /* JWPhotoPresentBrowserTransitioning.swift */; };
+		6866B61E1F29B0EB00E4CEF5 /* JWPhotoTapDismissTransioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6866B6161F29B0EB00E4CEF5 /* JWPhotoTapDismissTransioning.swift */; };
+		6866B61F1F29B0EB00E4CEF5 /* JWPhotoBrowserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6866B6181F29B0EB00E4CEF5 /* JWPhotoBrowserCell.swift */; };
+		687033E61EC97207000AD3B7 /* DropMyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687033E51EC97207000AD3B7 /* DropMyCell.swift */; };
+		687033E81EC9722A000AD3B7 /* DropMyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687033E71EC9722A000AD3B7 /* DropMyCell.xib */; };
+		687034041EC99093000AD3B7 /* FillBootomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687034021EC99093000AD3B7 /* FillBootomView.swift */; };
+		687034051EC99093000AD3B7 /* FillBootomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687034031EC99093000AD3B7 /* FillBootomView.xib */; };
+		687034081EC9A56D000AD3B7 /* QuotaUnkownVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687034061EC9A56D000AD3B7 /* QuotaUnkownVc.swift */; };
+		687034091EC9A56D000AD3B7 /* QuotaUnkownVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687034071EC9A56D000AD3B7 /* QuotaUnkownVc.xib */; };
+		6870340C1EC9A9CC000AD3B7 /* QuotaSureVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6870340A1EC9A9CC000AD3B7 /* QuotaSureVc.swift */; };
+		6870340D1EC9A9CC000AD3B7 /* QuotaSureVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6870340B1EC9A9CC000AD3B7 /* QuotaSureVc.xib */; };
+		68724B4F1ED9146300A233EF /* FillCResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68724B4E1ED9146300A233EF /* FillCResultModel.swift */; };
+		6874A14A1EE5047A00D8E3BF /* MessageMangerVcV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6874A1491EE5047A00D8E3BF /* MessageMangerVcV.swift */; };
+		6874A14C1EE505A600D8E3BF /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6874A14B1EE505A600D8E3BF /* MessageCell.swift */; };
+		6874A1511EE55D5300D8E3BF /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6874A14F1EE55D5300D8E3BF /* HistoryCell.swift */; };
+		6874A1521EE55D5300D8E3BF /* HistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6874A1501EE55D5300D8E3BF /* HistoryCell.xib */; };
+		687B710D1ED7D16000DED4A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687B710C1ED7D16000DED4A8 /* AppDelegate.swift */; };
+		687B710F1ED7D18300DED4A8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687B710E1ED7D18300DED4A8 /* LoginViewController.swift */; };
+		687B71111ED7D1A100DED4A8 /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687B71101ED7D1A100DED4A8 /* UserAccount.swift */; };
+		68875B4F1ED55339004917BA /* GYErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68875B4B1ED55339004917BA /* GYErrorCode.swift */; };
+		68875B501ED55339004917BA /* GYNetWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68875B4C1ED55339004917BA /* GYNetWorking.swift */; };
+		68875B511ED55339004917BA /* GYRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68875B4D1ED55339004917BA /* GYRouter.swift */; };
+		68875B521ED55339004917BA /* GYServiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68875B4E1ED55339004917BA /* GYServiceApi.swift */; };
+		68875B541ED55352004917BA /* GYTimerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68875B531ED55352004917BA /* GYTimerButton.swift */; };
+		68875B561ED5537D004917BA /* GYConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68875B551ED5537D004917BA /* GYConst.swift */; };
+		68875B581ED5539F004917BA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68875B571ED5539F004917BA /* LoginView.swift */; };
+		68875B5B1ED553C3004917BA /* GYBaseBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68875B591ED553C3004917BA /* GYBaseBackViewController.swift */; };
+		68875B5C1ED553C3004917BA /* GYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68875B5A1ED553C3004917BA /* GYBaseViewController.swift */; };
+		688E760F1F21A3DF00772734 /* GuideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688E760D1F21A3DF00772734 /* GuideCell.swift */; };
+		688E76101F21A3DF00772734 /* RNGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688E760E1F21A3DF00772734 /* RNGuideViewController.swift */; };
+		68A256091F2B16DE00D08C7C /* AgreementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A256081F2B16DE00D08C7C /* AgreementView.swift */; };
+		68A2560B1F2B16EE00D08C7C /* AgreementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A2560A1F2B16EE00D08C7C /* AgreementView.xib */; };
+		68AA57CE1F00DDF60003C86E /* InvitePepVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AA57CD1F00DDF60003C86E /* InvitePepVc.swift */; };
+		68C3674A1EF7672D00662D86 /* ProductTypeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C367481EF7672D00662D86 /* ProductTypeVc.swift */; };
+		68C3674B1EF7672D00662D86 /* ProductTypeVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C367491EF7672D00662D86 /* ProductTypeVc.xib */; };
+		68C3674D1EF7C18500662D86 /* UIImage+GYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C3674C1EF7C18500662D86 /* UIImage+GYExtension.swift */; };
+		68C3674F1EF7D1AC00662D86 /* GYReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C3674E1EF7D1AC00662D86 /* GYReminderView.swift */; };
+		68C367511EF7D1D100662D86 /* GYReminderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C367501EF7D1D100662D86 /* GYReminderView.xib */; };
+		68CA2ACD1EE9494F00CFE430 /* RequestMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA2ACB1EE9494F00CFE430 /* RequestMainCell.swift */; };
+		68CA2ACE1EE9494F00CFE430 /* RequestMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68CA2ACC1EE9494F00CFE430 /* RequestMainCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6820BF1F1EC2DDFC00C62BAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6820BF021EC2DDFC00C62BAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6820BF091EC2DDFC00C62BAF;
+			remoteInfo = CrawfishBanking;
+		};
+		6820BF2A1EC2DDFC00C62BAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6820BF021EC2DDFC00C62BAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6820BF091EC2DDFC00C62BAF;
+			remoteInfo = CrawfishBanking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54410D116951189D6A9C9277 /* Pods-CrawfishBanking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrawfishBanking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrawfishBanking/Pods-CrawfishBanking.debug.xcconfig"; sourceTree = "<group>"; };
+		60EDC54183E22A09510398B9 /* Pods_CrawfishBanking_CrawfishBankingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrawfishBanking_CrawfishBankingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		681550261EC2F00B0002AC1C /* GYNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNavigationController.swift; sourceTree = "<group>"; };
+		681550281EC2F00B0002AC1C /* ConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		681550291EC2F00B0002AC1C /* FillCustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillCustomerViewController.swift; sourceTree = "<group>"; };
+		6815502B1EC2F00B0002AC1C /* FillCustomerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillCustomerModel.swift; sourceTree = "<group>"; };
+		6815502D1EC2F00B0002AC1C /* ConfirmBtnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmBtnView.swift; sourceTree = "<group>"; };
+		6815502E1EC2F00B0002AC1C /* FillCustomerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillCustomerCell.swift; sourceTree = "<group>"; };
+		6815502F1EC2F00B0002AC1C /* FillCustomerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FillCustomerCell.xib; sourceTree = "<group>"; };
+		681550301EC2F00B0002AC1C /* FillHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillHeadView.swift; sourceTree = "<group>"; };
+		681550311EC2F00B0002AC1C /* FillHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FillHeadView.xib; sourceTree = "<group>"; };
+		681550331EC2F00B0002AC1C /* ContractVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContractVc.swift; sourceTree = "<group>"; };
+		681550341EC2F00B0002AC1C /* FilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
+		681550351EC2F00B0002AC1C /* FinancingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancingViewController.swift; sourceTree = "<group>"; };
+		681550381EC2F00B0002AC1C /* LoansVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoansVc.swift; sourceTree = "<group>"; };
+		6815503A1EC2F00B0002AC1C /* RequestVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestVc.swift; sourceTree = "<group>"; };
+		6815503B1EC2F00B0002AC1C /* ReviewVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewVc.swift; sourceTree = "<group>"; };
+		6815503D1EC2F00B0002AC1C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6815503F1EC2F00B0002AC1C /* SubmitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitViewController.swift; sourceTree = "<group>"; };
+		681550471EC2F00B0002AC1C /* GYBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYBanner.swift; sourceTree = "<group>"; };
+		681550481EC2F00B0002AC1C /* HomeBootomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBootomView.swift; sourceTree = "<group>"; };
+		6815504A1EC2F00B0002AC1C /* LoginNoneInfoVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginNoneInfoVc.swift; sourceTree = "<group>"; };
+		6815504B1EC2F00B0002AC1C /* LoginNoneInfoVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginNoneInfoVc.xib; sourceTree = "<group>"; };
+		681550501EC2F00B0002AC1C /* StateSecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateSecondView.swift; sourceTree = "<group>"; };
+		681550511EC2F00B0002AC1C /* StateSecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StateSecondView.xib; sourceTree = "<group>"; };
+		681550521EC2F00B0002AC1C /* StateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		681550531EC2F00B0002AC1C /* StateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StateView.xib; sourceTree = "<group>"; };
+		6815507D1EC2F0120002AC1C /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		6815507E1EC2F0120002AC1C /* UIView+GYExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+GYExtension.swift"; sourceTree = "<group>"; };
+		681550801EC2F0120002AC1C /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		681550811EC2F0120002AC1C /* UIButton+GYExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+GYExtension.swift"; sourceTree = "<group>"; };
+		681550881EC2F0180002AC1C /* GYBounceSportAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYBounceSportAnimation.swift; sourceTree = "<group>"; };
+		681550891EC2F0180002AC1C /* GYIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYIndicatorView.swift; sourceTree = "<group>"; };
+		681550901EC2F0180002AC1C /* GYPageContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYPageContainerView.swift; sourceTree = "<group>"; };
+		681550911EC2F0180002AC1C /* GYPageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYPageTitleView.swift; sourceTree = "<group>"; };
+		681550941EC2F0180002AC1C /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		681C016D1ECBEDDE002B78C9 /* ApplicationTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationTopView.swift; path = ../../../Helpers/NetWorkManager/ApplicationTopView.swift; sourceTree = "<group>"; };
+		681C016F1ECBF315002B78C9 /* ApplicationTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApplicationTopView.xib; sourceTree = "<group>"; };
+		681C01781ECC51B8002B78C9 /* LoansBootomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoansBootomView.swift; sourceTree = "<group>"; };
+		681C017A1ECC51EF002B78C9 /* LoansBootomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoansBootomView.xib; sourceTree = "<group>"; };
+		681D47961EF268780024C551 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		681D54EE1F0C7FAB007B6335 /* AboutCrawfishVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutCrawfishVc.swift; sourceTree = "<group>"; };
+		681D54EF1F0C7FAB007B6335 /* AboutCrawfishVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutCrawfishVc.xib; sourceTree = "<group>"; };
+		681FC4EC1F022632009ED1CE /* InviteHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteHistory.swift; sourceTree = "<group>"; };
+		681FC4F21F0226AB009ED1CE /* InviteHistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteHistoryCell.swift; sourceTree = "<group>"; };
+		681FC4F31F0226AB009ED1CE /* InviteHistoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InviteHistoryCell.xib; sourceTree = "<group>"; };
+		682072CB1EEFAE120051F1D2 /* RequestRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestRealm.swift; sourceTree = "<group>"; };
+		682072CD1EEFAE230051F1D2 /* RequestStateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestStateModel.swift; sourceTree = "<group>"; };
+		682072CF1EEFB6080051F1D2 /* ShopTypeVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopTypeVc.swift; sourceTree = "<group>"; };
+		682072D11EEFB7FE0051F1D2 /* SellerVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellerVc.swift; sourceTree = "<group>"; };
+		682072D31EEFB8180051F1D2 /* FriendInfoVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendInfoVc.swift; sourceTree = "<group>"; };
+		6820BF0A1EC2DDFC00C62BAF /* CrawfishBanking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrawfishBanking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6820BF141EC2DDFC00C62BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6820BF171EC2DDFC00C62BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6820BF191EC2DDFC00C62BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6820BF1E1EC2DDFC00C62BAF /* CrawfishBankingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrawfishBankingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6820BF221EC2DDFC00C62BAF /* CrawfishBankingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrawfishBankingTests.swift; sourceTree = "<group>"; };
+		6820BF241EC2DDFC00C62BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6820BF291EC2DDFC00C62BAF /* CrawfishBankingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrawfishBankingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6820BF2D1EC2DDFC00C62BAF /* CrawfishBankingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrawfishBankingUITests.swift; sourceTree = "<group>"; };
+		6820BF2F1EC2DDFC00C62BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6830110D1F0492A0008B862B /* ContractDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContractDetail.swift; sourceTree = "<group>"; };
+		68445F581EEE59BA00B83571 /* PersonInfoVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonInfoVc.swift; sourceTree = "<group>"; };
+		6844AD161F0B87CB004061F3 /* HistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		684BA0E81ED4309E00993F18 /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
+		684C1D7F1F04DE5C008DF3BC /* InviteInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteInfoModel.swift; sourceTree = "<group>"; };
+		6854C4D81ECD2FA300DDCCE1 /* UserInfoVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoVc.swift; sourceTree = "<group>"; };
+		6854C4DC1ECD310100DDCCE1 /* UserInfoTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoTopView.swift; sourceTree = "<group>"; };
+		6854C4DE1ECD312800DDCCE1 /* UserInfoTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserInfoTopView.xib; sourceTree = "<group>"; };
+		68551EB91EF0FF31003C2691 /* BankTypeInfoRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankTypeInfoRealm.swift; sourceTree = "<group>"; };
+		68551EF81EF126DE003C2691 /* TimeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeCell.swift; sourceTree = "<group>"; };
+		68551EF91EF126DE003C2691 /* TimeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeCell.xib; sourceTree = "<group>"; };
+		68551EFE1EF130B8003C2691 /* NSDate+GYExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSDate+GYExtension.swift"; path = "../../Helpers/Tools/NSDate+GYExtension.swift"; sourceTree = "<group>"; };
+		68551F001EF13721003C2691 /* GYDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYDatePicker.swift; sourceTree = "<group>"; };
+		68551F021EF1372D003C2691 /* GYDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GYDatePicker.xib; sourceTree = "<group>"; };
+		6857FFE11EC41036002B5DCA /* String+GYExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+GYExtension.swift"; sourceTree = "<group>"; };
+		6866B60F1F29B0EB00E4CEF5 /* JWPhotoBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWPhotoBrowserViewController.swift; sourceTree = "<group>"; };
+		6866B6111F29B0EB00E4CEF5 /* JWPhotoBrowerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWPhotoBrowerItem.swift; sourceTree = "<group>"; };
+		6866B6131F29B0EB00E4CEF5 /* JWPhotoDismissBrowserTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWPhotoDismissBrowserTransitioning.swift; sourceTree = "<group>"; };
+		6866B6141F29B0EB00E4CEF5 /* JWPhotoInteractiveTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWPhotoInteractiveTransitioning.swift; sourceTree = "<group>"; };
+		6866B6151F29B0EB00E4CEF5 /* JWPhotoPresentBrowserTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWPhotoPresentBrowserTransitioning.swift; sourceTree = "<group>"; };
+		6866B6161F29B0EB00E4CEF5 /* JWPhotoTapDismissTransioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWPhotoTapDismissTransioning.swift; sourceTree = "<group>"; };
+		6866B6181F29B0EB00E4CEF5 /* JWPhotoBrowserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWPhotoBrowserCell.swift; sourceTree = "<group>"; };
+		687033E51EC97207000AD3B7 /* DropMyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropMyCell.swift; sourceTree = "<group>"; };
+		687033E71EC9722A000AD3B7 /* DropMyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropMyCell.xib; sourceTree = "<group>"; };
+		687034021EC99093000AD3B7 /* FillBootomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillBootomView.swift; sourceTree = "<group>"; };
+		687034031EC99093000AD3B7 /* FillBootomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FillBootomView.xib; sourceTree = "<group>"; };
+		687034061EC9A56D000AD3B7 /* QuotaUnkownVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotaUnkownVc.swift; sourceTree = "<group>"; };
+		687034071EC9A56D000AD3B7 /* QuotaUnkownVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuotaUnkownVc.xib; sourceTree = "<group>"; };
+		6870340A1EC9A9CC000AD3B7 /* QuotaSureVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotaSureVc.swift; sourceTree = "<group>"; };
+		6870340B1EC9A9CC000AD3B7 /* QuotaSureVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuotaSureVc.xib; sourceTree = "<group>"; };
+		68724B4E1ED9146300A233EF /* FillCResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillCResultModel.swift; sourceTree = "<group>"; };
+		6874A1491EE5047A00D8E3BF /* MessageMangerVcV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageMangerVcV.swift; sourceTree = "<group>"; };
+		6874A14B1EE505A600D8E3BF /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		6874A14F1EE55D5300D8E3BF /* HistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		6874A1501EE55D5300D8E3BF /* HistoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryCell.xib; sourceTree = "<group>"; };
+		687B710C1ED7D16000DED4A8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		687B710E1ED7D18300DED4A8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		687B71101ED7D1A100DED4A8 /* UserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserAccount.swift; path = ../View/UserAccount.swift; sourceTree = "<group>"; };
+		68875B4B1ED55339004917BA /* GYErrorCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GYErrorCode.swift; path = ../GYErrorCode.swift; sourceTree = "<group>"; };
+		68875B4C1ED55339004917BA /* GYNetWorking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GYNetWorking.swift; path = ../GYNetWorking.swift; sourceTree = "<group>"; };
+		68875B4D1ED55339004917BA /* GYRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GYRouter.swift; path = ../GYRouter.swift; sourceTree = "<group>"; };
+		68875B4E1ED55339004917BA /* GYServiceApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GYServiceApi.swift; path = ../GYServiceApi.swift; sourceTree = "<group>"; };
+		68875B531ED55352004917BA /* GYTimerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYTimerButton.swift; sourceTree = "<group>"; };
+		68875B551ED5537D004917BA /* GYConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYConst.swift; sourceTree = "<group>"; };
+		68875B571ED5539F004917BA /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		68875B591ED553C3004917BA /* GYBaseBackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYBaseBackViewController.swift; sourceTree = "<group>"; };
+		68875B5A1ED553C3004917BA /* GYBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYBaseViewController.swift; sourceTree = "<group>"; };
+		688E760D1F21A3DF00772734 /* GuideCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideCell.swift; sourceTree = "<group>"; };
+		688E760E1F21A3DF00772734 /* RNGuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNGuideViewController.swift; sourceTree = "<group>"; };
+		68A256081F2B16DE00D08C7C /* AgreementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgreementView.swift; sourceTree = "<group>"; };
+		68A2560A1F2B16EE00D08C7C /* AgreementView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgreementView.xib; sourceTree = "<group>"; };
+		68AA57CD1F00DDF60003C86E /* InvitePepVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitePepVc.swift; sourceTree = "<group>"; };
+		68C367481EF7672D00662D86 /* ProductTypeVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTypeVc.swift; sourceTree = "<group>"; };
+		68C367491EF7672D00662D86 /* ProductTypeVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductTypeVc.xib; sourceTree = "<group>"; };
+		68C3674C1EF7C18500662D86 /* UIImage+GYExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+GYExtension.swift"; sourceTree = "<group>"; };
+		68C3674E1EF7D1AC00662D86 /* GYReminderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYReminderView.swift; sourceTree = "<group>"; };
+		68C367501EF7D1D100662D86 /* GYReminderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GYReminderView.xib; sourceTree = "<group>"; };
+		68CA2ACB1EE9494F00CFE430 /* RequestMainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestMainCell.swift; sourceTree = "<group>"; };
+		68CA2ACC1EE9494F00CFE430 /* RequestMainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RequestMainCell.xib; sourceTree = "<group>"; };
+		C3E2E8FAE92157E01A9E0B47 /* Pods_CrawfishBanking_CrawfishBankingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrawfishBanking_CrawfishBankingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17CB5D7C793EC91A27CA095 /* Pods-CrawfishBanking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrawfishBanking.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrawfishBanking/Pods-CrawfishBanking.release.xcconfig"; sourceTree = "<group>"; };
+		EFA6146AAC997786F3F0E61A /* Pods_CrawfishBanking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrawfishBanking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6820BF071EC2DDFC00C62BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5E3503E8E91CA8D527E702 /* Pods_CrawfishBanking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6820BF1B1EC2DDFC00C62BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6820BF261EC2DDFC00C62BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2878D7D916F8C6D85BDF3BBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54410D116951189D6A9C9277 /* Pods-CrawfishBanking.debug.xcconfig */,
+				E17CB5D7C793EC91A27CA095 /* Pods-CrawfishBanking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		681550221EC2F00B0002AC1C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				687B710C1ED7D16000DED4A8 /* AppDelegate.swift */,
+				681550231EC2F00B0002AC1C /* Base */,
+				681550271EC2F00B0002AC1C /* CustomerInfo */,
+				681550321EC2F00B0002AC1C /* FinancingRequest */,
+				6815503C1EC2F00B0002AC1C /* Home */,
+				6854C4D71ECD2C7600DDCCE1 /* UserInfo */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		681550231EC2F00B0002AC1C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				688E760D1F21A3DF00772734 /* GuideCell.swift */,
+				688E760E1F21A3DF00772734 /* RNGuideViewController.swift */,
+				68875B591ED553C3004917BA /* GYBaseBackViewController.swift */,
+				68875B5A1ED553C3004917BA /* GYBaseViewController.swift */,
+				681550261EC2F00B0002AC1C /* GYNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		681550271EC2F00B0002AC1C /* CustomerInfo */ = {
+			isa = PBXGroup;
+			children = (
+				681550491EC2F00B0002AC1C /* Login */,
+				681550281EC2F00B0002AC1C /* ConfirmViewController.swift */,
+				681550291EC2F00B0002AC1C /* FillCustomerViewController.swift */,
+				6815502A1EC2F00B0002AC1C /* Model */,
+				6815502C1EC2F00B0002AC1C /* View */,
+			);
+			path = CustomerInfo;
+			sourceTree = "<group>";
+		};
+		6815502A1EC2F00B0002AC1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6815502B1EC2F00B0002AC1C /* FillCustomerModel.swift */,
+				68724B4E1ED9146300A233EF /* FillCResultModel.swift */,
+				68551EB91EF0FF31003C2691 /* BankTypeInfoRealm.swift */,
+				681D47961EF268780024C551 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6815502C1EC2F00B0002AC1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6815502D1EC2F00B0002AC1C /* ConfirmBtnView.swift */,
+				6815502E1EC2F00B0002AC1C /* FillCustomerCell.swift */,
+				6815502F1EC2F00B0002AC1C /* FillCustomerCell.xib */,
+				681550301EC2F00B0002AC1C /* FillHeadView.swift */,
+				681550311EC2F00B0002AC1C /* FillHeadView.xib */,
+				687034021EC99093000AD3B7 /* FillBootomView.swift */,
+				687034031EC99093000AD3B7 /* FillBootomView.xib */,
+				687033E51EC97207000AD3B7 /* DropMyCell.swift */,
+				687033E71EC9722A000AD3B7 /* DropMyCell.xib */,
+				681C016D1ECBEDDE002B78C9 /* ApplicationTopView.swift */,
+				681C016F1ECBF315002B78C9 /* ApplicationTopView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		681550321EC2F00B0002AC1C /* FinancingRequest */ = {
+			isa = PBXGroup;
+			children = (
+				68445F531EEE3F7600B83571 /* Request */,
+				681C01761ECC5009002B78C9 /* Model */,
+				681C01771ECC5009002B78C9 /* View */,
+				681550341EC2F00B0002AC1C /* FilesViewController.swift */,
+				681550351EC2F00B0002AC1C /* FinancingViewController.swift */,
+				6815503A1EC2F00B0002AC1C /* RequestVc.swift */,
+				6815503B1EC2F00B0002AC1C /* ReviewVc.swift */,
+				681550331EC2F00B0002AC1C /* ContractVc.swift */,
+				681550381EC2F00B0002AC1C /* LoansVc.swift */,
+				6830110D1F0492A0008B862B /* ContractDetail.swift */,
+			);
+			path = FinancingRequest;
+			sourceTree = "<group>";
+		};
+		6815503C1EC2F00B0002AC1C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				682104611EE7E4D400D83EAA /* Search */,
+				6815503D1EC2F00B0002AC1C /* HomeViewController.swift */,
+				6815503E1EC2F00B0002AC1C /* Submit */,
+				681550401EC2F00B0002AC1C /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6815503E1EC2F00B0002AC1C /* Submit */ = {
+			isa = PBXGroup;
+			children = (
+				6874A14D1EE55CD900D8E3BF /* Model */,
+				6874A14E1EE55CD900D8E3BF /* View */,
+				6815503F1EC2F00B0002AC1C /* SubmitViewController.swift */,
+			);
+			path = Submit;
+			sourceTree = "<group>";
+		};
+		681550401EC2F00B0002AC1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				681550471EC2F00B0002AC1C /* GYBanner.swift */,
+				681550481EC2F00B0002AC1C /* HomeBootomView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		681550491EC2F00B0002AC1C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6815504D1EC2F00B0002AC1C /* View */,
+				6857FFE31EC438C2002B5DCA /* Model */,
+				6815504A1EC2F00B0002AC1C /* LoginNoneInfoVc.swift */,
+				6815504B1EC2F00B0002AC1C /* LoginNoneInfoVc.xib */,
+				687B710E1ED7D18300DED4A8 /* LoginViewController.swift */,
+				687034061EC9A56D000AD3B7 /* QuotaUnkownVc.swift */,
+				687034071EC9A56D000AD3B7 /* QuotaUnkownVc.xib */,
+				68C367481EF7672D00662D86 /* ProductTypeVc.swift */,
+				68C367491EF7672D00662D86 /* ProductTypeVc.xib */,
+				6870340A1EC9A9CC000AD3B7 /* QuotaSureVc.swift */,
+				6870340B1EC9A9CC000AD3B7 /* QuotaSureVc.xib */,
+			);
+			name = Login;
+			path = ../Login;
+			sourceTree = "<group>";
+		};
+		6815504D1EC2F00B0002AC1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				68875B531ED55352004917BA /* GYTimerButton.swift */,
+				68875B571ED5539F004917BA /* LoginView.swift */,
+				681550501EC2F00B0002AC1C /* StateSecondView.swift */,
+				681550511EC2F00B0002AC1C /* StateSecondView.xib */,
+				681550521EC2F00B0002AC1C /* StateView.swift */,
+				681550531EC2F00B0002AC1C /* StateView.xib */,
+				68C3674E1EF7D1AC00662D86 /* GYReminderView.swift */,
+				68C367501EF7D1D100662D86 /* GYReminderView.xib */,
+				68A256081F2B16DE00D08C7C /* AgreementView.swift */,
+				68A2560A1F2B16EE00D08C7C /* AgreementView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6815507B1EC2F0120002AC1C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6815507C1EC2F0120002AC1C /* Foundation+GYExtension */,
+				6815507F1EC2F0120002AC1C /* UIView+GYExtension */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6815507C1EC2F0120002AC1C /* Foundation+GYExtension */ = {
+			isa = PBXGroup;
+			children = (
+				68551EFE1EF130B8003C2691 /* NSDate+GYExtension.swift */,
+				6815507D1EC2F0120002AC1C /* UIColor+Extension.swift */,
+				6815507E1EC2F0120002AC1C /* UIView+GYExtension.swift */,
+				6857FFE11EC41036002B5DCA /* String+GYExtension.swift */,
+			);
+			path = "Foundation+GYExtension";
+			sourceTree = "<group>";
+		};
+		6815507F1EC2F0120002AC1C /* UIView+GYExtension */ = {
+			isa = PBXGroup;
+			children = (
+				681550801EC2F0120002AC1C /* UIBarButtonItem+Extension.swift */,
+				681550811EC2F0120002AC1C /* UIButton+GYExtension.swift */,
+				68C3674C1EF7C18500662D86 /* UIImage+GYExtension.swift */,
+			);
+			path = "UIView+GYExtension";
+			sourceTree = "<group>";
+		};
+		681550861EC2F0180002AC1C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				68724B501ED94F4900A233EF /* Realm */,
+				681C01711ECC2932002B78C9 /* lib */,
+				6815508A1EC2F0180002AC1C /* NetWorkManager */,
+				6815508F1EC2F0180002AC1C /* PageView */,
+				681550921EC2F0180002AC1C /* Tools */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		681550871EC2F0180002AC1C /* IndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				681550881EC2F0180002AC1C /* GYBounceSportAnimation.swift */,
+				681550891EC2F0180002AC1C /* GYIndicatorView.swift */,
+			);
+			name = IndicatorView;
+			path = ../IndicatorView;
+			sourceTree = "<group>";
+		};
+		6815508A1EC2F0180002AC1C /* NetWorkManager */ = {
+			isa = PBXGroup;
+			children = (
+				68875B4B1ED55339004917BA /* GYErrorCode.swift */,
+				68875B4C1ED55339004917BA /* GYNetWorking.swift */,
+				68875B4D1ED55339004917BA /* GYRouter.swift */,
+				68875B4E1ED55339004917BA /* GYServiceApi.swift */,
+			);
+			path = NetWorkManager;
+			sourceTree = "<group>";
+		};
+		6815508F1EC2F0180002AC1C /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				681550901EC2F0180002AC1C /* GYPageContainerView.swift */,
+				681550911EC2F0180002AC1C /* GYPageTitleView.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
+		681550921EC2F0180002AC1C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				68875B551ED5537D004917BA /* GYConst.swift */,
+				681550941EC2F0180002AC1C /* Tools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		681C01711ECC2932002B78C9 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				6866B60D1F29B0EB00E4CEF5 /* JWPhotoBrowserViewController */,
+				684BA0E81ED4309E00993F18 /* SwiftNotice.swift */,
+				681550871EC2F0180002AC1C /* IndicatorView */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		681C01761ECC5009002B78C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		681C01771ECC5009002B78C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				681C01781ECC51B8002B78C9 /* LoansBootomView.swift */,
+				681C017A1ECC51EF002B78C9 /* LoansBootomView.xib */,
+				68CA2ACB1EE9494F00CFE430 /* RequestMainCell.swift */,
+				68CA2ACC1EE9494F00CFE430 /* RequestMainCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		682072CA1EEFAE120051F1D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				682072CB1EEFAE120051F1D2 /* RequestRealm.swift */,
+				682072CD1EEFAE230051F1D2 /* RequestStateModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6820BF011EC2DDFC00C62BAF = {
+			isa = PBXGroup;
+			children = (
+				6820BF0C1EC2DDFC00C62BAF /* CrawfishBanking */,
+				6820BF211EC2DDFC00C62BAF /* CrawfishBankingTests */,
+				6820BF2C1EC2DDFC00C62BAF /* CrawfishBankingUITests */,
+				6820BF0B1EC2DDFC00C62BAF /* Products */,
+				2878D7D916F8C6D85BDF3BBB /* Pods */,
+				B63A3D11B29CF683D52406A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6820BF0B1EC2DDFC00C62BAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6820BF0A1EC2DDFC00C62BAF /* CrawfishBanking.app */,
+				6820BF1E1EC2DDFC00C62BAF /* CrawfishBankingTests.xctest */,
+				6820BF291EC2DDFC00C62BAF /* CrawfishBankingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6820BF0C1EC2DDFC00C62BAF /* CrawfishBanking */ = {
+			isa = PBXGroup;
+			children = (
+				681550221EC2F00B0002AC1C /* Classes */,
+				6815507B1EC2F0120002AC1C /* Extension */,
+				681550861EC2F0180002AC1C /* Helpers */,
+				6820BF141EC2DDFC00C62BAF /* Assets.xcassets */,
+				6820BF161EC2DDFC00C62BAF /* LaunchScreen.storyboard */,
+				6820BF191EC2DDFC00C62BAF /* Info.plist */,
+			);
+			path = CrawfishBanking;
+			sourceTree = "<group>";
+		};
+		6820BF211EC2DDFC00C62BAF /* CrawfishBankingTests */ = {
+			isa = PBXGroup;
+			children = (
+				6820BF221EC2DDFC00C62BAF /* CrawfishBankingTests.swift */,
+				6820BF241EC2DDFC00C62BAF /* Info.plist */,
+			);
+			path = CrawfishBankingTests;
+			sourceTree = "<group>";
+		};
+		6820BF2C1EC2DDFC00C62BAF /* CrawfishBankingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6820BF2D1EC2DDFC00C62BAF /* CrawfishBankingUITests.swift */,
+				6820BF2F1EC2DDFC00C62BAF /* Info.plist */,
+			);
+			path = CrawfishBankingUITests;
+			sourceTree = "<group>";
+		};
+		682104611EE7E4D400D83EAA /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				682104621EE7E4D400D83EAA /* Model */,
+				682104631EE7E4D400D83EAA /* View */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		682104621EE7E4D400D83EAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		682104631EE7E4D400D83EAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		68445F531EEE3F7600B83571 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				68551EF71EF126A0003C2691 /* View */,
+				682072CA1EEFAE120051F1D2 /* Model */,
+				68445F581EEE59BA00B83571 /* PersonInfoVc.swift */,
+				682072CF1EEFB6080051F1D2 /* ShopTypeVc.swift */,
+				682072D11EEFB7FE0051F1D2 /* SellerVc.swift */,
+				682072D31EEFB8180051F1D2 /* FriendInfoVc.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		6854C4D71ECD2C7600DDCCE1 /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				6854C4DA1ECD30E300DDCCE1 /* Model */,
+				6854C4DB1ECD30E300DDCCE1 /* View */,
+				6854C4D81ECD2FA300DDCCE1 /* UserInfoVc.swift */,
+				6874A1491EE5047A00D8E3BF /* MessageMangerVcV.swift */,
+				68AA57CD1F00DDF60003C86E /* InvitePepVc.swift */,
+				681FC4EC1F022632009ED1CE /* InviteHistory.swift */,
+				681D54EE1F0C7FAB007B6335 /* AboutCrawfishVc.swift */,
+				681D54EF1F0C7FAB007B6335 /* AboutCrawfishVc.xib */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		6854C4DA1ECD30E300DDCCE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				684C1D7F1F04DE5C008DF3BC /* InviteInfoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6854C4DB1ECD30E300DDCCE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				681FC4F21F0226AB009ED1CE /* InviteHistoryCell.swift */,
+				681FC4F31F0226AB009ED1CE /* InviteHistoryCell.xib */,
+				6854C4DC1ECD310100DDCCE1 /* UserInfoTopView.swift */,
+				6854C4DE1ECD312800DDCCE1 /* UserInfoTopView.xib */,
+				6874A14B1EE505A600D8E3BF /* MessageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		68551EF71EF126A0003C2691 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				68551EF81EF126DE003C2691 /* TimeCell.swift */,
+				68551EF91EF126DE003C2691 /* TimeCell.xib */,
+				68551F001EF13721003C2691 /* GYDatePicker.swift */,
+				68551F021EF1372D003C2691 /* GYDatePicker.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6857FFE31EC438C2002B5DCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				687B71101ED7D1A100DED4A8 /* UserAccount.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6866B60D1F29B0EB00E4CEF5 /* JWPhotoBrowserViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6866B60E1F29B0EB00E4CEF5 /* Controller */,
+				6866B6101F29B0EB00E4CEF5 /* Model */,
+				6866B6121F29B0EB00E4CEF5 /* Transitioning */,
+				6866B6171F29B0EB00E4CEF5 /* View */,
+			);
+			path = JWPhotoBrowserViewController;
+			sourceTree = "<group>";
+		};
+		6866B60E1F29B0EB00E4CEF5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6866B60F1F29B0EB00E4CEF5 /* JWPhotoBrowserViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6866B6101F29B0EB00E4CEF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6866B6111F29B0EB00E4CEF5 /* JWPhotoBrowerItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6866B6121F29B0EB00E4CEF5 /* Transitioning */ = {
+			isa = PBXGroup;
+			children = (
+				6866B6131F29B0EB00E4CEF5 /* JWPhotoDismissBrowserTransitioning.swift */,
+				6866B6141F29B0EB00E4CEF5 /* JWPhotoInteractiveTransitioning.swift */,
+				6866B6151F29B0EB00E4CEF5 /* JWPhotoPresentBrowserTransitioning.swift */,
+				6866B6161F29B0EB00E4CEF5 /* JWPhotoTapDismissTransioning.swift */,
+			);
+			path = Transitioning;
+			sourceTree = "<group>";
+		};
+		6866B6171F29B0EB00E4CEF5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6866B6181F29B0EB00E4CEF5 /* JWPhotoBrowserCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		68724B501ED94F4900A233EF /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		6874A14D1EE55CD900D8E3BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6844AD161F0B87CB004061F3 /* HistoryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6874A14E1EE55CD900D8E3BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6874A14F1EE55D5300D8E3BF /* HistoryCell.swift */,
+				6874A1501EE55D5300D8E3BF /* HistoryCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B63A3D11B29CF683D52406A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFA6146AAC997786F3F0E61A /* Pods_CrawfishBanking.framework */,
+				C3E2E8FAE92157E01A9E0B47 /* Pods_CrawfishBanking_CrawfishBankingTests.framework */,
+				60EDC54183E22A09510398B9 /* Pods_CrawfishBanking_CrawfishBankingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6820BF091EC2DDFC00C62BAF /* CrawfishBanking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6820BF321EC2DDFC00C62BAF /* Build configuration list for PBXNativeTarget "CrawfishBanking" */;
+			buildPhases = (
+				1B56022F50E169896A9DECBB /* [CP] Check Pods Manifest.lock */,
+				6820BF061EC2DDFC00C62BAF /* Sources */,
+				6820BF071EC2DDFC00C62BAF /* Frameworks */,
+				6820BF081EC2DDFC00C62BAF /* Resources */,
+				BE4C213C2D8E155DC343D833 /* [CP] Embed Pods Frameworks */,
+				E81EF70A8F7BF09862E1DF36 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrawfishBanking;
+			productName = CrawfishBanking;
+			productReference = 6820BF0A1EC2DDFC00C62BAF /* CrawfishBanking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6820BF1D1EC2DDFC00C62BAF /* CrawfishBankingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6820BF351EC2DDFC00C62BAF /* Build configuration list for PBXNativeTarget "CrawfishBankingTests" */;
+			buildPhases = (
+				6820BF1A1EC2DDFC00C62BAF /* Sources */,
+				6820BF1B1EC2DDFC00C62BAF /* Frameworks */,
+				6820BF1C1EC2DDFC00C62BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6820BF201EC2DDFC00C62BAF /* PBXTargetDependency */,
+			);
+			name = CrawfishBankingTests;
+			productName = CrawfishBankingTests;
+			productReference = 6820BF1E1EC2DDFC00C62BAF /* CrawfishBankingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6820BF281EC2DDFC00C62BAF /* CrawfishBankingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6820BF381EC2DDFC00C62BAF /* Build configuration list for PBXNativeTarget "CrawfishBankingUITests" */;
+			buildPhases = (
+				6820BF251EC2DDFC00C62BAF /* Sources */,
+				6820BF261EC2DDFC00C62BAF /* Frameworks */,
+				6820BF271EC2DDFC00C62BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6820BF2B1EC2DDFC00C62BAF /* PBXTargetDependency */,
+			);
+			name = CrawfishBankingUITests;
+			productName = CrawfishBankingUITests;
+			productReference = 6820BF291EC2DDFC00C62BAF /* CrawfishBankingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6820BF021EC2DDFC00C62BAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = macpro;
+				TargetAttributes = {
+					6820BF091EC2DDFC00C62BAF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J24KP524YC;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					6820BF1D1EC2DDFC00C62BAF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UZZG6NM74T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6820BF091EC2DDFC00C62BAF;
+					};
+					6820BF281EC2DDFC00C62BAF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UZZG6NM74T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6820BF091EC2DDFC00C62BAF;
+					};
+				};
+			};
+			buildConfigurationList = 6820BF051EC2DDFC00C62BAF /* Build configuration list for PBXProject "CrawfishBanking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6820BF011EC2DDFC00C62BAF;
+			productRefGroup = 6820BF0B1EC2DDFC00C62BAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6820BF091EC2DDFC00C62BAF /* CrawfishBanking */,
+				6820BF1D1EC2DDFC00C62BAF /* CrawfishBankingTests */,
+				6820BF281EC2DDFC00C62BAF /* CrawfishBankingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6820BF081EC2DDFC00C62BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681550781EC2F00B0002AC1C /* StateSecondView.xib in Resources */,
+				681FC4F51F0226AB009ED1CE /* InviteHistoryCell.xib in Resources */,
+				681C01701ECBF315002B78C9 /* ApplicationTopView.xib in Resources */,
+				681550731EC2F00B0002AC1C /* LoginNoneInfoVc.xib in Resources */,
+				6820BF181EC2DDFC00C62BAF /* LaunchScreen.storyboard in Resources */,
+				6815507A1EC2F00B0002AC1C /* StateView.xib in Resources */,
+				687034051EC99093000AD3B7 /* FillBootomView.xib in Resources */,
+				6820BF151EC2DDFC00C62BAF /* Assets.xcassets in Resources */,
+				681C017B1ECC51EF002B78C9 /* LoansBootomView.xib in Resources */,
+				687034091EC9A56D000AD3B7 /* QuotaUnkownVc.xib in Resources */,
+				68551F031EF1372D003C2691 /* GYDatePicker.xib in Resources */,
+				6854C4DF1ECD312800DDCCE1 /* UserInfoTopView.xib in Resources */,
+				6815505C1EC2F00B0002AC1C /* FillCustomerCell.xib in Resources */,
+				68C367511EF7D1D100662D86 /* GYReminderView.xib in Resources */,
+				68CA2ACE1EE9494F00CFE430 /* RequestMainCell.xib in Resources */,
+				6874A1521EE55D5300D8E3BF /* HistoryCell.xib in Resources */,
+				687033E81EC9722A000AD3B7 /* DropMyCell.xib in Resources */,
+				6815505E1EC2F00B0002AC1C /* FillHeadView.xib in Resources */,
+				68551EFB1EF126DE003C2691 /* TimeCell.xib in Resources */,
+				68C3674B1EF7672D00662D86 /* ProductTypeVc.xib in Resources */,
+				68A2560B1F2B16EE00D08C7C /* AgreementView.xib in Resources */,
+				6870340D1EC9A9CC000AD3B7 /* QuotaSureVc.xib in Resources */,
+				681D54F11F0C7FAB007B6335 /* AboutCrawfishVc.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6820BF1C1EC2DDFC00C62BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6820BF271EC2DDFC00C62BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B56022F50E169896A9DECBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE4C213C2D8E155DC343D833 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrawfishBanking/Pods-CrawfishBanking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E81EF70A8F7BF09862E1DF36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrawfishBanking/Pods-CrawfishBanking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6820BF061EC2DDFC00C62BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681550571EC2F00B0002AC1C /* ConfirmViewController.swift in Sources */,
+				682072CE1EEFAE240051F1D2 /* RequestStateModel.swift in Sources */,
+				681FC4F41F0226AB009ED1CE /* InviteHistoryCell.swift in Sources */,
+				68875B501ED55339004917BA /* GYNetWorking.swift in Sources */,
+				6815509B1EC2F0180002AC1C /* GYPageContainerView.swift in Sources */,
+				68AA57CE1F00DDF60003C86E /* InvitePepVc.swift in Sources */,
+				6874A14A1EE5047A00D8E3BF /* MessageMangerVcV.swift in Sources */,
+				681C016E1ECBEDDE002B78C9 /* ApplicationTopView.swift in Sources */,
+				6830110E1F0492A0008B862B /* ContractDetail.swift in Sources */,
+				688E76101F21A3DF00772734 /* RNGuideViewController.swift in Sources */,
+				687B71111ED7D1A100DED4A8 /* UserAccount.swift in Sources */,
+				681550681EC2F00B0002AC1C /* HomeViewController.swift in Sources */,
+				68875B511ED55339004917BA /* GYRouter.swift in Sources */,
+				687034041EC99093000AD3B7 /* FillBootomView.swift in Sources */,
+				68875B581ED5539F004917BA /* LoginView.swift in Sources */,
+				68875B561ED5537D004917BA /* GYConst.swift in Sources */,
+				68551EBA1EF0FF31003C2691 /* BankTypeInfoRealm.swift in Sources */,
+				68875B521ED55339004917BA /* GYServiceApi.swift in Sources */,
+				68C3674D1EF7C18500662D86 /* UIImage+GYExtension.swift in Sources */,
+				681550711EC2F00B0002AC1C /* HomeBootomView.swift in Sources */,
+				6815505F1EC2F00B0002AC1C /* ContractVc.swift in Sources */,
+				6815509C1EC2F0180002AC1C /* GYPageTitleView.swift in Sources */,
+				6854C4D91ECD2FA300DDCCE1 /* UserInfoVc.swift in Sources */,
+				6815505B1EC2F00B0002AC1C /* FillCustomerCell.swift in Sources */,
+				6866B61C1F29B0EB00E4CEF5 /* JWPhotoInteractiveTransitioning.swift in Sources */,
+				6866B61A1F29B0EB00E4CEF5 /* JWPhotoBrowerItem.swift in Sources */,
+				681550641EC2F00B0002AC1C /* LoansVc.swift in Sources */,
+				6866B61D1F29B0EB00E4CEF5 /* JWPhotoPresentBrowserTransitioning.swift in Sources */,
+				681550581EC2F00B0002AC1C /* FillCustomerViewController.swift in Sources */,
+				681550961EC2F0180002AC1C /* GYIndicatorView.swift in Sources */,
+				6815505A1EC2F00B0002AC1C /* ConfirmBtnView.swift in Sources */,
+				682072CC1EEFAE120051F1D2 /* RequestRealm.swift in Sources */,
+				681550771EC2F00B0002AC1C /* StateSecondView.swift in Sources */,
+				6866B61F1F29B0EB00E4CEF5 /* JWPhotoBrowserCell.swift in Sources */,
+				684BA0E91ED4309E00993F18 /* SwiftNotice.swift in Sources */,
+				681550701EC2F00B0002AC1C /* GYBanner.swift in Sources */,
+				682072D21EEFB7FE0051F1D2 /* SellerVc.swift in Sources */,
+				6854C4DD1ECD310100DDCCE1 /* UserInfoTopView.swift in Sources */,
+				6844AD171F0B87CB004061F3 /* HistoryModel.swift in Sources */,
+				681550671EC2F00B0002AC1C /* ReviewVc.swift in Sources */,
+				6866B6191F29B0EB00E4CEF5 /* JWPhotoBrowserViewController.swift in Sources */,
+				682072D41EEFB8180051F1D2 /* FriendInfoVc.swift in Sources */,
+				68724B4F1ED9146300A233EF /* FillCResultModel.swift in Sources */,
+				681550841EC2F0120002AC1C /* UIBarButtonItem+Extension.swift in Sources */,
+				681D47971EF268780024C551 /* UserModel.swift in Sources */,
+				681FC4ED1F022632009ED1CE /* InviteHistory.swift in Sources */,
+				681550661EC2F00B0002AC1C /* RequestVc.swift in Sources */,
+				68875B4F1ED55339004917BA /* GYErrorCode.swift in Sources */,
+				68875B5C1ED553C3004917BA /* GYBaseViewController.swift in Sources */,
+				687034081EC9A56D000AD3B7 /* QuotaUnkownVc.swift in Sources */,
+				68875B541ED55352004917BA /* GYTimerButton.swift in Sources */,
+				6874A1511EE55D5300D8E3BF /* HistoryCell.swift in Sources */,
+				68C3674F1EF7D1AC00662D86 /* GYReminderView.swift in Sources */,
+				687B710D1ED7D16000DED4A8 /* AppDelegate.swift in Sources */,
+				6870340C1EC9A9CC000AD3B7 /* QuotaSureVc.swift in Sources */,
+				681550821EC2F0120002AC1C /* UIColor+Extension.swift in Sources */,
+				68551EFA1EF126DE003C2691 /* TimeCell.swift in Sources */,
+				681550721EC2F00B0002AC1C /* LoginNoneInfoVc.swift in Sources */,
+				688E760F1F21A3DF00772734 /* GuideCell.swift in Sources */,
+				68551EFF1EF130B8003C2691 /* NSDate+GYExtension.swift in Sources */,
+				681550851EC2F0120002AC1C /* UIButton+GYExtension.swift in Sources */,
+				681C01791ECC51B8002B78C9 /* LoansBootomView.swift in Sources */,
+				681550611EC2F00B0002AC1C /* FinancingViewController.swift in Sources */,
+				681550791EC2F00B0002AC1C /* StateView.swift in Sources */,
+				6857FFE21EC41036002B5DCA /* String+GYExtension.swift in Sources */,
+				684C1D801F04DE5C008DF3BC /* InviteInfoModel.swift in Sources */,
+				68A256091F2B16DE00D08C7C /* AgreementView.swift in Sources */,
+				687B710F1ED7D18300DED4A8 /* LoginViewController.swift in Sources */,
+				68445F591EEE59BA00B83571 /* PersonInfoVc.swift in Sources */,
+				681550561EC2F00B0002AC1C /* GYNavigationController.swift in Sources */,
+				6866B61B1F29B0EB00E4CEF5 /* JWPhotoDismissBrowserTransitioning.swift in Sources */,
+				6874A14C1EE505A600D8E3BF /* MessageCell.swift in Sources */,
+				6866B61E1F29B0EB00E4CEF5 /* JWPhotoTapDismissTransioning.swift in Sources */,
+				681550691EC2F00B0002AC1C /* SubmitViewController.swift in Sources */,
+				681550831EC2F0120002AC1C /* UIView+GYExtension.swift in Sources */,
+				68875B5B1ED553C3004917BA /* GYBaseBackViewController.swift in Sources */,
+				68551F011EF13721003C2691 /* GYDatePicker.swift in Sources */,
+				681550591EC2F00B0002AC1C /* FillCustomerModel.swift in Sources */,
+				68CA2ACD1EE9494F00CFE430 /* RequestMainCell.swift in Sources */,
+				681550951EC2F0180002AC1C /* GYBounceSportAnimation.swift in Sources */,
+				681550601EC2F00B0002AC1C /* FilesViewController.swift in Sources */,
+				681D54F01F0C7FAB007B6335 /* AboutCrawfishVc.swift in Sources */,
+				68C3674A1EF7672D00662D86 /* ProductTypeVc.swift in Sources */,
+				6815509E1EC2F0180002AC1C /* Tools.swift in Sources */,
+				682072D01EEFB6080051F1D2 /* ShopTypeVc.swift in Sources */,
+				687033E61EC97207000AD3B7 /* DropMyCell.swift in Sources */,
+				6815505D1EC2F00B0002AC1C /* FillHeadView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6820BF1A1EC2DDFC00C62BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6820BF231EC2DDFC00C62BAF /* CrawfishBankingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6820BF251EC2DDFC00C62BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6820BF2E1EC2DDFC00C62BAF /* CrawfishBankingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6820BF201EC2DDFC00C62BAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6820BF091EC2DDFC00C62BAF /* CrawfishBanking */;
+			targetProxy = 6820BF1F1EC2DDFC00C62BAF /* PBXContainerItemProxy */;
+		};
+		6820BF2B1EC2DDFC00C62BAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6820BF091EC2DDFC00C62BAF /* CrawfishBanking */;
+			targetProxy = 6820BF2A1EC2DDFC00C62BAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6820BF161EC2DDFC00C62BAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6820BF171EC2DDFC00C62BAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6820BF301EC2DDFC00C62BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6820BF311EC2DDFC00C62BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6820BF331EC2DDFC00C62BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54410D116951189D6A9C9277 /* Pods-CrawfishBanking.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CrawfishBanking/Helpers/lib",
+				);
+				INFOPLIST_FILE = CrawfishBanking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"DropDown\"",
+					"-framework",
+					"\"KMNavigationBarTransition\"",
+					"-framework",
+					"\"SnapKit\"",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"DropDown\"",
+					"-framework",
+					"\"KMNavigationBarTransition\"",
+					"-framework",
+					"\"SnapKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samall.Banking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6820BF341EC2DDFC00C62BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17CB5D7C793EC91A27CA095 /* Pods-CrawfishBanking.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CrawfishBanking/Helpers/lib",
+				);
+				INFOPLIST_FILE = CrawfishBanking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"DropDown\"",
+					"-framework",
+					"\"KMNavigationBarTransition\"",
+					"-framework",
+					"\"SnapKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samall.Banking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6820BF361EC2DDFC00C62BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				INFOPLIST_FILE = CrawfishBankingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ozner.CrawfishBanking.CrawfishBankingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrawfishBanking.app/CrawfishBanking";
+			};
+			name = Debug;
+		};
+		6820BF371EC2DDFC00C62BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				INFOPLIST_FILE = CrawfishBankingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ozner.CrawfishBanking.CrawfishBankingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrawfishBanking.app/CrawfishBanking";
+			};
+			name = Release;
+		};
+		6820BF391EC2DDFC00C62BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				INFOPLIST_FILE = CrawfishBankingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ozner.CrawfishBanking.CrawfishBankingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CrawfishBanking;
+			};
+			name = Debug;
+		};
+		6820BF3A1EC2DDFC00C62BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				INFOPLIST_FILE = CrawfishBankingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ozner.CrawfishBanking.CrawfishBankingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CrawfishBanking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6820BF051EC2DDFC00C62BAF /* Build configuration list for PBXProject "CrawfishBanking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6820BF301EC2DDFC00C62BAF /* Debug */,
+				6820BF311EC2DDFC00C62BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6820BF321EC2DDFC00C62BAF /* Build configuration list for PBXNativeTarget "CrawfishBanking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6820BF331EC2DDFC00C62BAF /* Debug */,
+				6820BF341EC2DDFC00C62BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6820BF351EC2DDFC00C62BAF /* Build configuration list for PBXNativeTarget "CrawfishBankingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6820BF361EC2DDFC00C62BAF /* Debug */,
+				6820BF371EC2DDFC00C62BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6820BF381EC2DDFC00C62BAF /* Build configuration list for PBXNativeTarget "CrawfishBankingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6820BF391EC2DDFC00C62BAF /* Debug */,
+				6820BF3A1EC2DDFC00C62BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6820BF021EC2DDFC00C62BAF /* Project object */;
+}
